@@ -1,0 +1,29 @@
+body  
+{  
+ background-image:url(https://media.istockphoto.com/videos/candles-burning-on-black-background-video-id872746416?s=640x640);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+
+button {background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%)}
+button{
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ button:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+ 
+
